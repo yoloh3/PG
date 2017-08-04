@@ -1,0 +1,8 @@
+*.[oa]
+*~*
+*.swo
+*.swp
+*.obj
+*.out
+*bin*
+
