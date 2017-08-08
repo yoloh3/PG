@@ -12,36 +12,52 @@ Introduction
 ============
 Intro book
 
+
 Currently work
 ==============
+
 ## Book
+
 0.  CMOS VLSI Design: A Circuits and Systems Perspective
 - Book for Power gating project
 
+
 ## Question
+
 - Header or footder: Headers better for gate leakage reduction, but ~ 2X larger
 
+
 ## My read paper:
+
 3. Nasirian2016 - Traffic-Aware Power-Gating Scheme for Network-On-Chip
+
 - Reading from 14-Jul-2017
+
 - Have slide
+
 - Main/Key contribution:
 	+ Điều khiển tín hiệu power-gating dựa trên ước tính thống kê của traffic inter-arrivel times.
+
 - Check:
-	+ Predictor function and inter-arrival times monitor blocks are used in offline stage and can
-	be removed in run time implementation.
+	+ Predictor function and inter-arrival times monitor blocks are used in offline stage and can be removed in run time implementation.
 	+ Architecture for every port in a mesh topology
+
 - Limitation:
 	
 
 7.  Matsutani2008 - Run-time power gating of on-chip routers using loo
+
 - Reading from 23-Jul-2017
 
 - Main contribution:
-	+ Sleep controll method based on look-ahead routing để phát hiện sự xuất
-	hiện của 2 package trước (hop ahead), so to hide wake-up delay and reduce
-	the short-term sleep.
+	+ Sleep controll method based on look-ahead routing để phát hiện sự xuất hiện của 2 package trước (hop ahead), so to hide wake-up delay and reduce the short-term sleep.
 
+
+15. Chen and Pinkston - 2012 - NoRD Node-Router Decoupling for Effective Power-gating of On-Chip Routers
+
+- Reading from Aug-2-2017
+
+- Main contribution: NoRD (Node-Router Decoupling) - a novel approach that provides `separate power-gating bypass` to  decouple `the node’s ability for transferring packets` from `the status of the router`. 
 
 ## Other reader:
 4.  v
@@ -74,4 +90,5 @@ Book Abstract
 
 14. Usami2010		- Adaptive power gating for function units in a micr
 - Điều khiển mưa bụi thích ứng với power gating function units based on temperature dependent breakeven time (BET)
+
 
